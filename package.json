@@ -1,0 +1,35 @@
+{
+  "name": "saucelabs-multicapabilities-generator",
+  "version": "0.0.0",
+  "description": "generate protractor compliant multicapabilities array of saucelabs browsers from browserslist strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "generate-capabilities": "./bin/generate-capabilities.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diffalot/saucelabs-multicapabilities-generator.git"
+  },
+  "keywords": [
+    "protractor",
+    "webdriver",
+    "saucelabs",
+    "browserslist"
+  ],
+  "author": "Andrew Davis <andrew@diff.mx>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diffalot/saucelabs-multicapabilities-generator/issues"
+  },
+  "homepage": "https://github.com/diffalot/saucelabs-multicapabilities-generator#readme",
+  "dependencies": {
+    "browserslist": "^1.3.5",
+    "commander": "^2.9.0",
+    "jsonfile": "^2.3.1",
+    "saucelabs": "^1.2.0",
+    "saucelabs-finder": "0.0.0-alpha"
+  }
+}
